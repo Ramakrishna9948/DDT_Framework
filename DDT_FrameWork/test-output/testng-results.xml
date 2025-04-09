@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[No of rows are::7]]>
+    </line>
+    <line>
+      <![CDATA[No of rows are::7]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-09T12:52:12 IST" name="DDF" finished-at="2025-04-09T12:52:47 IST" duration-ms="35207">
+    <groups>
+    </groups>
+    <test started-at="2025-04-09T12:52:12 IST" name="ValidLogin" finished-at="2025-04-09T12:52:37 IST" duration-ms="25329">
+      <class name="driverFactory.AdminLoginValidData">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:driverFactory.AdminLoginValidData@51399530]" started-at="2025-04-09T12:52:12 IST" name="setUp" finished-at="2025-04-09T12:52:17 IST" duration-ms="5051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="startTest()[pri:0, instance:driverFactory.AdminLoginValidData@51399530]" started-at="2025-04-09T12:52:17 IST" name="startTest" finished-at="2025-04-09T12:52:37 IST" duration-ms="19915" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows are::7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.AdminLoginValidData@51399530]" started-at="2025-04-09T12:52:37 IST" name="tearDown" finished-at="2025-04-09T12:52:37 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.AdminLoginValidData -->
+    </test> <!-- ValidLogin -->
+    <test started-at="2025-04-09T12:52:38 IST" name="InvalidLogin" finished-at="2025-04-09T12:52:47 IST" duration-ms="9824">
+      <class name="driverFactory.AdminLoginInvalidData">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:driverFactory.AdminLoginInvalidData@2362f559]" started-at="2025-04-09T12:52:38 IST" name="setUp" finished-at="2025-04-09T12:52:41 IST" duration-ms="3154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="startTest()[pri:0, instance:driverFactory.AdminLoginInvalidData@2362f559]" started-at="2025-04-09T12:52:41 IST" name="startTest" finished-at="2025-04-09T12:52:47 IST" duration-ms="6385" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows are::7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.AdminLoginInvalidData@2362f559]" started-at="2025-04-09T12:52:47 IST" name="tearDown" finished-at="2025-04-09T12:52:47 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.AdminLoginInvalidData -->
+    </test> <!-- InvalidLogin -->
+  </suite> <!-- DDF -->
+</testng-results>
