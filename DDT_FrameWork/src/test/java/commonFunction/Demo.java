@@ -11,6 +11,6 @@ public class Demo {
 	}
 	public void mul()
 	{
-		System.out.println("mul");
+		System.out.println("Mul");
 	}
 }
